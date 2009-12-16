@@ -2,8 +2,6 @@
 # http://jphastings.tumblr.com/tagged/whereontheweb
 
 require 'ruby-processing'
-require "socket"
-require "open-uri"
 require "fileutils"
 
 def coordinates_from_point(point)
