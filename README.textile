@@ -1,0 +1,12 @@
+h1. Geo Processing
+
+This is a bare-bones example of using ruby-processing to map points on an equirectangular map of the Earth.
+All kinds of GIS visualizations need the same common features, so this sample provides some of the basics.
+
+h2. Control Panel
+
+This example provides a control panel for selecting the map type and the map brightness levels.
+
+h2. Map Types
+
+The maps are loaded from the images/maps folder, and they should be named "#{type}-#{@width}.jpg".
