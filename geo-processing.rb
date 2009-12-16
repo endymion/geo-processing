@@ -6,8 +6,6 @@ require "socket"
 require "open-uri"
 require "fileutils"
 
-FileUtils.mkdir_p("ips/")
-
 def coordinates_from_point(point)
   return nil if point.nil?
   lat = point[0]
